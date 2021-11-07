@@ -9,7 +9,7 @@ class Student:
 
 
 def main():
-    foo = input().strip().replace(" ", "")
+    foo = input().replace(" ", "")
     while True:
         try:
             Student(int(foo[0]), int(foo[1:3]), int(foo[3:5])).info()
