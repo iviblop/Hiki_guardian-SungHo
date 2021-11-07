@@ -6,7 +6,7 @@ def Sum(foo):
 
 def main():
     while True:
-        foo = input().strip().replace(" ", "")
+        foo = input().replace(" ", "")
         try:
             if '의배수' in foo:
                 for bar in range(int(foo[0]), 101, int(foo[0])):
