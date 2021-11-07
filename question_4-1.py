@@ -1,7 +1,7 @@
 def main():
     while True:
         try:
-            foo = int(input().strip().replace(" ", ""))
+            foo = int(input().replace(" ", ""))
             for bar in range(1, 10):
                 print(f"{foo} * {bar} = {foo * bar}", sep='')
             break
