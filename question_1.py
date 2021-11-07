@@ -15,7 +15,7 @@ def main():
             Student(int(foo[0]), int(foo[1:3]), int(foo[3:5])).info()
             break
         except ValueError:
-            print("{학년} {반} {번호} 형식으로 입력해주세요.")
+            print("{학년}{반}{번호} 형식으로 입력해주세요.")
 
 
 if __name__ == '__main__':
